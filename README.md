@@ -156,5 +156,6 @@ pull request :)
 
 (The MIT License)
 
-Copyright (c) 2013 Hugh Kennedy <hughskennedy@gmail.com>
-Original EJS implementation copyright (c) 2009-2010 TJ Holowaychuk <tj@vision-media.ca>
+Copyright (c) 2013 Hugh Kennedy &lt;hughskennedy@gmail.com&gt;
+
+Original EJS implementation copyright (c) 2009-2010 TJ Holowaychuk &lt;tj@vision-media.ca&gt;
