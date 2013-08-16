@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+var ps = require('../')
+
+if (process.argv[2]) {
+  console.log(ps(require('fs').readFileSync(process.argv[2], 'utf8')))
+} else {
+  var buffer = ''
+  process.stdin.resume()
+  process.stdin.once('close', function() {
+    console.log(ps(buffer))
+  }).on('data', function(data) {
+    buffer += data
+  })
+}

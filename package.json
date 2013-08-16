@@ -1,0 +1,24 @@
+{
+  "name": "polyscript",
+  "version": "0.0.0",
+  "description": "Write JavaScript in your JavaScript",
+  "main": "index.js",
+  "dependencies": {
+    "cleanify": "~0.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"tests pending\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/polyscript.git"
+  },
+  "keywords": [
+    "transpiler",
+    "language"
+  ],
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
